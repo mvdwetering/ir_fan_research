@@ -179,9 +179,9 @@ mark-width encoding. Every bit occupies exactly the same total time
 bit value, while the space (off) is simply the complement:
 
 | Mark value | Space value | Total | Duration (µs) | Bit |
-|------------|-------------|-------|--------------|-----|
-| ~`0x30`    | ~`0x10`     | `0x40`| ~1683        | 1   |
-| ~`0x10`    | ~`0x30`     | `0x40`| ~1683        | 0   |
+|------------|-------------|-------|---------------|-----|
+| ~`0x30`    | ~`0x10`     | `0x40`| ~1683         | 1   |
+| ~`0x10`    | ~`0x30`     | `0x40`| ~1683         | 0   |
 
 The 3:1 ratio between long and short intervals is consistent with
 Japanese-appliance AEHA-style timing, though the encoding here is
@@ -201,7 +201,7 @@ mini-frame contains exactly **12 mark/space pairs**, encoding **12 bits** of dat
 
 A complete button press always follows the same three-part structure:
 
-```
+```text
 [ PREAMBLE_A ] gap [ PREAMBLE_B ] gap [ COMMAND ] gap [ COMMAND ] gap ...
 ```
 
@@ -219,7 +219,7 @@ host's button-hold duration.
 
 Each 12-bit word consists of:
 
-```
+```text
 [ b11 b10 b9 b8 b7 b6 b5 b4 ] [ b3 b2 b1 b0 ]
   ^^^^^^^^ 8-bit payload ^^^^   ^^^^ prefix
 ```
@@ -291,18 +291,18 @@ K7–K8 as combined speed+timer keys.
 
 ## Timing summary
 
-| Parameter            | Measured value         |
-|----------------------|------------------------|
-| Carrier frequency    | 38.03 kHz              |
+| Parameter               | Measured value               |
+|-------------------------|------------------------------|
+| Carrier frequency       | 38.03 kHz                    |
 | Long mark / short space | ~1260 µs / ~420 µs (bit = 1) |
 | Short mark / long space | ~420 µs / ~1260 µs (bit = 0) |
-| Bit duration         | ~1683 µs (constant)    |
-| Inter-frame gap      | ~6.2 ms (0xEC units)   |
-| Final silence        | ~66 ms (0x09D8 units)  |
-| Mini-frame length    | 12 symbols / 12 bits   |
-| Preamble A payload   | `0x00` (`00000000`)    |
-| Preamble B payload   | `0x7F` (`01111111`)    |
-| Command repeats      | 3–6×                   |
+| Bit duration            | ~1683 µs (constant)          |
+| Inter-frame gap         | ~6.2 ms (0xEC units)         |
+| Final silence           | ~66 ms (0x09D8 units)        |
+| Mini-frame length       | 12 symbols / 12 bits         |
+| Preamble A payload      | `0x00` (`00000000`)          |
+| Preamble B payload      | `0x7F` (`01111111`)          |
+| Command repeats         | 3–6×                         |
 
 ---
 

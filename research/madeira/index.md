@@ -181,4 +181,3 @@ Photos of the Madeira module and remote
 ![Module top](hornbach_module_top.jpg) ![Module top enlarged](hornbach_module_top_enlarged.jpg) ![Module front](hornbach_module_front.jpg) ![Module bottom](hornbach_module_bottom.jpg) ![Module side 1](hornbach_module_side_1.jpg) ![Module side 2](hornbach_module_side_2.jpg) ![Module PCB bottom](hornbach_module_pcb_bottom.jpg) ![Module PCB top 1](hornbach_module_pcb_top_1.jpg) ![Module PCB top 2](hornbach_module_pcb_top_2.jpg) ![Module PCB top 3](hornbach_module_pcb_top_3.jpg)
 
 ![Remote front](hornbach_remote_front.jpg) ![Remote back](hornbach_remote_back.jpg) ![PCB top](hornbach_pcb_top.jpg) ![PCB bottom](hornbach_pcb_bottom.jpg)
-

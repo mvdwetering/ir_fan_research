@@ -47,5 +47,5 @@ These are products I own or am confident are using the same IR protocol.
 Browsing lampen24.nl I suspect these are using the same module and with that the same IR protocol.
 This is based on how the manual looks the same/similar as the one for my Emanual light.
 
-* Lindy, e.g. https://www.lampen24.nl/p/plafondventilator-met-verlichting-auraya-stil-staal-10027100.html
-* Westinghouse, e.g. https://www.lampen24.nl/p/westinghouse-bendan-ventilator-met-licht-zilver-9602244.html
+* Lindy, e.g. <https://www.lampen24.nl/p/plafondventilator-met-verlichting-auraya-stil-staal-10027100.html>
+* Westinghouse, e.g. <https://www.lampen24.nl/p/westinghouse-bendan-ventilator-met-licht-zilver-9602244.html>

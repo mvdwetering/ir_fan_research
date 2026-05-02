@@ -24,7 +24,7 @@ Since the PCB is the same as the Madeira and the buttons actually work as exepct
 
 ## IR captures
 
-
+See the log files
 
 ## Photos
 

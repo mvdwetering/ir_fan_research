@@ -8,6 +8,6 @@ A page with the [controller listing](https://aaeil.ecvery.com/products/remote-co
 
 Other controller listings found that have similar info for reference:
 
-*  https://www.ecol.xyz/remote-control-products/ir-ceiling-fan-remote-control-receiver-model-no-aa2009-9-pro1066804.html
+* <https://www.ecol.xyz/remote-control-products/ir-ceiling-fan-remote-control-receiver-model-no-aa2009-9-pro1066804.html>
 
 (note that I also searched for the other numbers on the PCB and controller, but those did not seem te result in more info)
