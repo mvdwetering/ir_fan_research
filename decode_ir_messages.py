@@ -27,7 +27,7 @@ EXPECTED_HEADER = "110"
 SUPPORTED_HEADERS = {"110", "010"}
 LABEL_COLUMN_WIDTH = 7
 
-NAME_LABELS = {
+FRAME_NAMES = {
     "110000000000": "START_A",
     "110001111111": "START_B",
 }
@@ -159,7 +159,7 @@ def classify_bit(mark_us: int, space_us: int, t: Thresholds) -> tuple[str, str |
     bit_value = 1 if score_1 < score_0 else 0
 
     warning = None
-    if mark_bit != space_bit:
+    if mark_bit != space_bit and space_abs < t.gap_threshold:
         warning = (
             f"mark/space mismatch (mark={mark_abs}us, space={space_abs}us, "
             f"mark_bit={mark_bit}, space_bit={space_bit})"
@@ -175,7 +175,7 @@ def decode_frame_bits(bits: str) -> Frame:
     control_word = int(control_bits, 2)
 
     key = None
-    label = NAME_LABELS.get(bits)
+    label = FRAME_NAMES.get(bits)
     if label is None:
         label = "COMMAND"
         key = COMMAND_MAP.get(control_word, "UNKNOWN_COMMAND")
