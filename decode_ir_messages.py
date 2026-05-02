@@ -23,16 +23,9 @@ from typing import Iterable, List, Sequence
 
 # Protocol constants derived from repository notes.
 FRAME_BITS = 12
-EXPECTED_HEADER = "110"
-SUPPORTED_HEADERS = {"110", "010"}
-LABEL_COLUMN_WIDTH = 7
-
-FRAME_NAMES = {
-    "110000000000": "START_A",
-    "110001111111": "START_B",
-}
 
 COMMAND_MAP = {
+    0x00: "START_A",
     0x01: "K1",
     0x02: "K2",
     0x04: "K3",
@@ -41,6 +34,7 @@ COMMAND_MAP = {
     0x20: "K6",
     0x43: "K7",
     0x46: "K8",
+    0x7F: "START_B",
 }
 
 
@@ -62,7 +56,6 @@ class Frame:
     header: str
     custom_bits: str
     control_word: int
-    label: str
     key: str | None = None
 
 
@@ -174,18 +167,13 @@ def decode_frame_bits(bits: str) -> Frame:
     control_bits = bits[5:]
     control_word = int(control_bits, 2)
 
-    key = None
-    label = FRAME_NAMES.get(bits)
-    if label is None:
-        label = "COMMAND"
-        key = COMMAND_MAP.get(control_word, "UNKNOWN_COMMAND")
+    key = COMMAND_MAP.get(control_word)
 
     return Frame(
         bits=bits,
         header=header,
         custom_bits=custom_bits,
         control_word=control_word,
-        label=label,
         key=key,
     )
 
@@ -233,11 +221,17 @@ def decode_message(message: Sequence[int], index: int, gap_floor_us: int) -> Mes
         warnings.append(f"trailing partial frame with {len(bit_buffer)} bits")
 
     custom_code = None
-    custom_candidates = [f.custom_bits for f in frames if f.header in SUPPORTED_HEADERS]
+    custom_candidates = [f.custom_bits for f in frames]
     if custom_candidates:
         # The fan protocol uses a constant 2-bit custom code across a message.
         common = collections.Counter(custom_candidates).most_common(1)[0][0]
         custom_code = common
+
+    headers_in_message = sorted({f.header for f in frames})
+    if len(headers_in_message) > 1:
+        warnings.append(
+            "inconsistent headers in message: " + ", ".join(headers_in_message)
+        )
 
     if bit_durations_us:
         bit_time_us = float(statistics.median(bit_durations_us))
@@ -265,20 +259,12 @@ def decode_message(message: Sequence[int], index: int, gap_floor_us: int) -> Mes
     else:
         frame_gap_outlier = [False for _ in frame_gap_us]
 
-    command_count = sum(1 for f in frames if f.label == "COMMAND")
-    unknown_count = sum(1 for f in frames if f.label in {"UNKNOWN_HEADER", "UNKNOWN_COMMAND"})
-    has_expected_start_frames = (
-        len(frames) >= 2
-        and frames[0].label == "START_A"
-        and frames[1].label == "START_B"
-    )
-    # Bare variant: only COMMAND frames, no start frames at all.
-    has_no_start_frames = all(f.label not in {"START_A", "START_B"} for f in frames)
-    is_decodable = command_count > 0 and unknown_count == 0 and (
-        has_expected_start_frames or has_no_start_frames
-    )
+    known_count = sum(1 for f in frames if f.key is not None)
+    unknown_count = sum(1 for f in frames if f.key is None)
+    is_decodable = known_count > 0 and unknown_count == 0
     if is_decodable:
-        variant: str | None = "XIN HUI" if has_expected_start_frames else "SM5021"
+        has_xinhui_start = any(f.key in {"START_A", "START_B"} for f in frames)
+        variant: str | None = "XIN HUI" if has_xinhui_start else "SM5021"
     else:
         variant = None
 
@@ -462,8 +448,10 @@ def detect_input_type(text: str) -> str:
 def summarize_commands(frames: Iterable[Frame]) -> str:
     counts: dict[str, int] = {}
     for frame in frames:
-        if frame.key:
-            counts[frame.key] = counts.get(frame.key, 0) + 1
+        if frame.key in {"START_A", "START_B"}:
+            continue
+        key_name = frame.key if frame.key is not None else "UNKNOWN"
+        counts[key_name] = counts.get(key_name, 0) + 1
 
     if not counts:
         return "none"
@@ -538,10 +526,9 @@ def print_results(results: Sequence[MessageDecode], source: str, show_warnings: 
                     tail += f" ({gap_bits:.2f} bits)"
                 if idx - 1 < len(res.frame_gap_outlier) and res.frame_gap_outlier[idx - 1]:
                     tail += " OUTLIER_GAP"
-            if frame.key:
-                tail += f" -> {frame.key}"
-            label_text = frame.label.ljust(LABEL_COLUMN_WIDTH)
-            print(f"  Frame {idx:02d}: {frame.bits} | {label_text} | {tail}")
+            key_name = frame.key if frame.key is not None else "UNKNOWN"
+            tail += f" -> {key_name}"
+            print(f"  Frame {idx:02d}: {frame.bits} | {tail}")
 
         if show_warnings and res.warnings:
             print("  Warnings:")
