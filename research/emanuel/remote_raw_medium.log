@@ -1,0 +1,1960 @@
+[C][wifi:286]:   BSSID: 20:AA:4B:21:11:D7
+[C][wifi:287]:   Hostname: 'irreceiver'
+[C][wifi:291]:   Signal strength: -44 dB ▂▄▆█
+[C][wifi:295]:   Channel: 6
+[C][wifi:296]:   Subnet: 255.255.255.0
+[C][wifi:297]:   Gateway: 192.168.178.9
+[C][wifi:298]:   DNS1: 192.168.178.9
+[C][wifi:299]:   DNS2: 213.75.63.75
+[D][wifi:432]: Disabling AP...
+[C][ota:029]: Over-The-Air Updates:
+[C][ota:030]:   Address: irreceiver.local:8266
+[C][api:022]: Setting up Home Assistant API server...
+[I][app:058]: setup() finished successfully!
+[I][app:100]: ESPHome version 1.14.3 compiled on Aug 27 2020, 18:35:30
+[C][wifi:415]: WiFi:
+[C][wifi:283]:   SSID: 'Hemels'
+[C][wifi:284]:   IP Address: 192.168.178.28
+[C][wifi:286]:   BSSID: 20:AA:4B:21:11:D7
+[C][wifi:287]:   Hostname: 'irreceiver'
+[C][wifi:291]:   Signal strength: -44 dB ▂▄▆█
+[C][wifi:295]:   Channel: 6
+[C][wifi:296]:   Subnet: 255.255.255.0
+[C][wifi:297]:   Gateway: 192.168.178.9
+[C][wifi:298]:   DNS1: 192.168.178.9
+[C][wifi:299]:   DNS2: 213.75.63.75
+[C][logger:175]: Logger:
+[C][logger:176]:   Level: DEBUG
+[C][logger:177]:   Log Baud Rate: 115200
+[C][logger:178]:   Hardware UART: UART0
+[C][remote_receiver.esp8266:059]: Remote Receiver:
+[C][remote_receiver.esp8266:060]:   Pin: GPIO2 (Mode: INPUT_PULLUP, INVERTED)
+[C][remote_receiver.esp8266:065]:   Buffer Size: 1000
+[C][remote_receiver.esp8266:066]:   Tolerance: 25%
+[C][remote_receiver.esp8266:067]:   Filter out pulses shorter than: 50 us
+[C][remote_receiver.esp8266:068]:   Signal is done after 25000 us of no changes
+[C][captive_portal:169]: Captive Portal:
+[C][ota:029]: Over-The-Air Updates:
+[C][ota:030]:   Address: irreceiver.local:8266
+[C][api:095]: API Server:
+[C][api:096]:   Address: irreceiver.local:6053
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 162
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 82
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 170
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 161
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 118
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 84
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 135
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 83
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 117, -10571, 74
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 51, -12255, 139
+[D][remote.raw:041]: Received Raw: 111
+[D][remote.raw:041]: Received Raw: 160
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 82
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 65
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 125
+[D][remote.raw:041]: Received Raw: 63
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 62
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 84
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 166
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 58
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 111
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 83
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 111
+[D][remote.raw:041]: Received Raw: 82
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 166
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 163
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 118
+[D][remote.raw:041]: Received Raw: 108
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 141
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 111
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 167
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 141
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 141
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 69, -163, 109
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 73, -7069, 71
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[I][ota:046]: Boot seems successful, resetting boot loop counter.
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 167
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 118
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 167
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 85
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 107
+[D][remote.raw:041]: Received Raw: 124
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 65
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 88
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 84
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76, -1684, 71
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 53
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 63
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 135
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 163
+[D][remote.raw:041]: Received Raw: 162
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 163
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 169
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 168
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 298
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73, -16788, 113
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 66
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 142
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 119
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 95
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 83
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 169
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 150
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 167
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 67, -21569, 114
+[D][remote.raw:041]: Received Raw: 134
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 125
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 90
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 90, -2581, 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 163
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 60
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 166
+[D][remote.raw:041]: Received Raw: 134
+[D][remote.raw:041]: Received Raw: 63, -1164, 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 62
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 52
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 167
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 75, -5783, 75
+[D][remote.raw:041]: Received Raw: 161
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 63
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 264
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 79, -24140, 78
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 254
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 63
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 166
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 160
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 102
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 172
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 142
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 161
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 66
+[D][remote.raw:041]: Received Raw: 135
+[D][remote.raw:041]: Received Raw: 83
+[D][remote.raw:041]: Received Raw: 107
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 76, -14488, 72
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 82
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 132
+[D][remote.raw:041]: Received Raw: 72, -21061, 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 216
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 84
+[D][remote.raw:041]: Received Raw: 61
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 160
+[D][remote.raw:041]: Received Raw: 64
+[D][remote.raw:041]: Received Raw: 198
+[D][remote.raw:041]: Received Raw: 135
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 75, -16850, 74, -172, 163
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72, -337, 105
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 57
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 122
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 162
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 65
+[D][remote.raw:041]: Received Raw: 67, -7618, 163
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 134, -14638, 77
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 74, -17088, 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 73, -22174, 69
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 61
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 60
+[D][remote.raw:041]: Received Raw: 118
+[D][remote.raw:041]: Received Raw: 62
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 52
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 86
+[D][remote.raw:041]: Received Raw: 249
+[D][remote.raw:041]: Received Raw: 55
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 100
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74, -9262, 72
+[D][remote.raw:041]: Received Raw: 95
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 60
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 62
+[D][remote.raw:041]: Received Raw: 147
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 181
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73, -23199, 71
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 63
+[D][remote.raw:041]: Received Raw: 59
+[D][remote.raw:041]: Received Raw: 107, -16149, 84
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 113, -12890, 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 83
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 109
+[D][remote.raw:041]: Received Raw: 119
+[D][remote.raw:041]: Received Raw: 118
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 161
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 66
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 190
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 214
+[D][remote.raw:041]: Received Raw: 53
+[D][remote.raw:041]: Received Raw: 54
+[D][remote.raw:041]: Received Raw: 191
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 155
+[D][remote.raw:041]: Received Raw: 65, -1049, 69, -2613, 113
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 166
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 270
+[D][remote.raw:041]: Received Raw: 95
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 137, -17592, 77
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 87
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 168
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 157
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 86
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 66
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 188
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 62
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 58
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 80, -820, 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 168
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 196
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 97
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 118
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 65
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 264
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 61
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 84
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 141
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 111
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 161
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 94
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 148
+[D][remote.raw:041]: Received Raw: 58, -4235, 53
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 162
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73, -2555, 69
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74, -16272, 123
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 70, -21465, 77
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 92
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 94
+[D][remote.raw:041]: Received Raw: 58
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72, -17424, 75
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 162
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 95
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 116, -13686, 76
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw: 64
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 82
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 162
+[D][remote.raw:041]: Received Raw: 175
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 119
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 51
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 166
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 111
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 123
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 66
+[D][remote.raw:041]: Received Raw: 193
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 115, -166
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw: 72, -23011, 74
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 95
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 102
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 121
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 93, -648, 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 137, -14807, 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 83
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 107
+[D][remote.raw:041]: Received Raw: 128
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 59
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 111
+[D][remote.raw:041]: Received Raw: 82
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 82
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 163
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 157
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 71
+[E][api:084]: No client connected to API. Rebooting...
+[I][app:127]: Forcing a reboot...
+[W][wifi_esp8266:337]: Event: Disconnected ssid='Hemels' bssid=20:AA:4B:21:11:D7 reason='Association Leave'
+
+ ets Jan  8 2013,rst cause:4, boot mode:(3,3)
+
+wdt reset
+load 0x4010f000, len 1384, room 16
+tail 8
+chksum 0x2d
+csum 0x2d
+v8b899c12
+~ld
+   [I][logger:156]: Log initialized
+[C][ota:364]: There have been 0 suspected unsuccessful boot attempts.
+[I][app:028]: Running through setup()...
+[C][remote_receiver.esp8266:033]: Setting up Remote Receiver...
+[C][wifi:033]: Setting up WiFi...
+[D][wifi:304]: Starting scan...
+[D][remote.raw:041]: Received Raw: 74
+[D][wifi:319]: Found networks:
+[I][wifi:365]: - 'Hemels' (20:AA:4B:21:11:D7) ▂▄▆█
+[D][wifi:366]:     Channel: 6
+[D][wifi:367]:     RSSI: -37 dB
+[I][wifi:365]: - 'Hemels' (C4:AD:34:6C:E2:5D) ▂▄▆█
+[D][wifi:366]:     Channel: 1
+[D][wifi:367]:     RSSI: -74 dB
+[I][wifi:365]: - 'Hemels' (B8:69:F4:B2:A5:F1) ▂▄▆█
+[D][wifi:366]:     Channel: 1
+[D][wifi:367]:     RSSI: -83 dB
+[D][wifi:369]: - 'MikroTikWerk' (E4:8D:8C:9F:63:73) ▂▄▆█
+[D][wifi:369]: - 'ziggo-ap-6108488' (D8:B6:B7:C5:B5:74) ▂▄▆█
+[D][wifi:369]: - 'VRV951784EDA4' (CC:D4:2E:15:E0:37) ▂▄▆█
+[D][wifi:369]: - '' (76:83:C2:9F:5D:2A) ▂▄▆█
+[D][wifi:369]: - 'H368N9A8E2B' (66:CC:22:CF:59:E7) ▂▄▆█
+[D][wifi:369]: - 'Wireless' (74:83:C2:DF:5D:2A) ▂▄▆█
+[D][wifi:369]: - 'TP-Link_2.4GHz_2B8432' (B0:95:75:2B:84:32) ▂▄▆█
+[D][wifi:369]: - 'Ziggo' (92:5C:14:A7:1C:E9) ▂▄▆█
+[D][wifi:369]: - 'VRV951784EDA4' (64:CC:22:84:ED:A4) ▂▄▆█
+[D][wifi:369]: - 'ZiggoB1E2841' (54:67:51:B7:C7:3E) ▂▄▆█
+[D][wifi:369]: - '' (76:83:C2:9F:CE:2E) ▂▄▆█
+[D][wifi:369]: - 'H369A7AD9F9' (96:6A:B0:C3:86:2F) ▂▄▆█
+[D][wifi:369]: - 'Rainier's WLAN' (90:5C:44:A7:1C:E9) ▂▄▆█
+[D][wifi:369]: - 'van Tol_Gast' (CE:D4:2E:97:D9:49) ▂▄▆█
+[D][wifi:369]: - 'Ziggo' (52:0D:10:DC:95:59) ▂▄▆█
+[D][wifi:369]: - 'Ziggo' (56:67:11:B7:C7:3E) ▂▄▆█
+[D][wifi:369]: - 'H369A7AD9F9_Gast' (96:6A:B0:D3:86:2F) ▂▄▆█
+[D][wifi:369]: - 'H369A094B74_EXT' (A4:2B:8C:10:DE:53) ▂▄▆█
+[D][wifi:369]: - 'Quicksilver' (B0:4E:26:38:A6:D5) ▂▄▆█
+[D][wifi:369]: - '' (1A:E8:29:17:CA:EF) ▂▄▆█
+[D][wifi:369]: - 'DIHNVJEC' (BC:30:D9:25:8A:93) ▂▄▆█
+[D][wifi:369]: - 'Josh & Kim' (80:29:94:C3:1C:6C) ▂▄▆█
+[D][wifi:369]: - 'SEC_LinkShare_b28c7a' (E4:E0:C5:01:26:AB) ▂▄▆█
+[D][wifi:369]: - 'Welcome to the Matrix' (E8:94:F6:AA:B4:5C) ▂▄▆█
+[I][wifi:193]: WiFi Connecting to 'Hemels'...
+[D][remote.raw:041]: Received Raw: 66, -3109, 124
+[D][remote.raw:041]: Received Raw: 68, -9399, 71
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 139, -5972, 190
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 72
+[I][wifi:423]: WiFi Connected!
+[C][wifi:283]:   SSID: 'Hemels'
+[C][wifi:284]:   IP Address: 192.168.178.28
+[C][wifi:286]:   BSSID: 20:AA:4B:21:11:D7
+[C][wifi:287]:   Hostname: 'irreceiver'
+[C][wifi:291]:   Signal strength: -46 dB ▂▄▆█
+[C][wifi:295]:   Channel: 6
+[C][wifi:296]:   Subnet: 255.255.255.0
+[C][wifi:297]:   Gateway: 192.168.178.9
+[C][wifi:298]:   DNS1: 192.168.178.9
+[C][wifi:299]:   DNS2: 213.75.63.75
+[D][wifi:432]: Disabling AP...
+[C][ota:029]: Over-The-Air Updates:
+[C][ota:030]:   Address: irreceiver.local:8266
+[C][api:022]: Setting up Home Assistant API server...
+[I][app:058]: setup() finished successfully!
+[I][app:100]: ESPHome version 1.14.3 compiled on Aug 27 2020, 18:35:30
+[C][wifi:415]: WiFi:
+[C][wifi:283]:   SSID: 'Hemels'
+[C][wifi:284]:   IP Address: 192.168.178.28
+[C][wifi:286]:   BSSID: 20:AA:4B:21:11:D7
+[C][wifi:287]:   Hostname: 'irreceiver'
+[C][wifi:291]:   Signal strength: -46 dB ▂▄▆█
+[C][wifi:295]:   Channel: 6
+[C][wifi:296]:   Subnet: 255.255.255.0
+[C][wifi:297]:   Gateway: 192.168.178.9
+[C][wifi:298]:   DNS1: 192.168.178.9
+[C][wifi:299]:   DNS2: 213.75.63.75
+[C][logger:175]: Logger:
+[C][logger:176]:   Level: DEBUG
+[C][logger:177]:   Log Baud Rate: 115200
+[C][logger:178]:   Hardware UART: UART0
+[C][remote_receiver.esp8266:059]: Remote Receiver:
+[C][remote_receiver.esp8266:060]:   Pin: GPIO2 (Mode: INPUT_PULLUP, INVERTED)
+[C][remote_receiver.esp8266:065]:   Buffer Size: 1000
+[C][remote_receiver.esp8266:066]:   Tolerance: 25%
+[C][remote_receiver.esp8266:067]:   Filter out pulses shorter than: 50 us
+[C][remote_receiver.esp8266:068]:   Signal is done after 25000 us of no changes
+[C][captive_portal:169]: Captive Portal:
+[C][ota:029]: Over-The-Air Updates:
+[C][ota:030]:   Address: irreceiver.local:8266
+[C][api:095]: API Server:
+[C][api:096]:   Address: irreceiver.local:6053
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76, -22896, 114
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 63
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 163
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 124
+[D][remote.raw:041]: Received Raw: 163
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 162
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 83
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 162
+[D][remote.raw:041]: Received Raw: 71, -21639, 68
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 93
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 65
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 57
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 167
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 172
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77, -4949, 76
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 83
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 191
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 127
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 81
+[I][ota:046]: Boot seems successful, resetting boot loop counter.
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 66
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 82
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 123
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 135
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 93
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 80
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 87
+[D][remote.raw:041]: Received Raw: 163, -457, 67
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75, -6106, 136
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 160
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 161
+[D][remote.raw:041]: Received Raw: 191
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 160
+[D][remote.raw:041]: Received Raw: 72, -6039, 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 134
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 114, -22888, 142
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 85
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 68
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 160
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 62
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 118
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 165
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 82, -12427, 71
+[D][remote.raw:041]: Received Raw: 74, -221, 70
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 61
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 108
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 59
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 142
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 100
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 118
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 66
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 77, -8977, 72
+[D][remote.raw:041]: Received Raw: 67
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 111
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 83
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 191
+[D][remote.raw:041]: Received Raw: 73, -18911, 113
+[D][remote.raw:041]: Received Raw: 64
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 166
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 59
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 116
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 61
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 167
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 64
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 140
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 117
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 136
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 137
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 65
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 147
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 59
+[D][remote.raw:041]: Received Raw: 138
+[D][remote.raw:041]: Received Raw: 117, -3545, 108
+[D][remote.raw:041]: Received Raw: 190
+[D][remote.raw:041]: Received Raw: 97
+[D][remote.raw:041]: Received Raw: 169
+[D][remote.raw:041]: Received Raw: 79
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 66
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 94
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 164
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 73, -221, 247
+[D][remote.raw:041]: Received Raw: 54
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:028]: Received Raw: 1270, -436, 1192, -491, 448, -1238, 449, -1239, 423, -1267, 423, -1265, 448, -1239, 447, -1243, 448, -1239, 447, -1243, 443, -1244, 448, -7411, 1281, -421, 1193, -490, 447, -1239, 448, -1243, 446, -1243, 1192, -492, 1193, -493, 1191, -493,
+[D][remote.raw:028]:   1192, -495, 1190, -493, 1192, -491, 1196, -6650, 1255, -420, 1192, -491, 419, -1267, 446, -1243, 453, -1234, 451, -1236, 449, -1241, 422, -1264, 455, -1235, 1239, -444, 419, -1269, 449, -7402, 1255, -422, 1190, -490, 420, -1268, 451, -1237, 453, -1235,
+[D][remote.raw:028]:   448, -1238, 450, -1241, 451, -1236, 449, -1240, 1240, -443, 445, -1243, 450, -7399, 1257, -419, 1192, -490, 447, -1238, 452, -1238, 450, -1236, 451, -1236, 445, -1244, 451, -1236, 447, -1242, 1241, -442, 449, -1240, 455, -7392, 1259, -418, 1191, -492,
+[D][remote.raw:028]:   445, -1240, 451, -1238, 449, -1238, 455, -1230, 451, -1241, 448, -1237, 449, -1240, 1242, -440, 450, -1241, 451, -7399, 1282, -392, 1192, -492, 448, -1237, 452, -1240, 449, -1235, 453, -1235, 452, -1237, 452, -1235, 475, -1216, 1240, -441, 446, -1243,
+[D][remote.raw:028]:   452, -7398, 1284, -392, 1245, -437, 450, -1236, 455, -1235, 455, -1232, 452, -1234, 452, -1238, 454, -1233, 478, -1211, 1242, -441, 453, -1236, 452, -7399, 1285, -391, 1244, -438, 448, -1238, 480, -1207, 453, -1237, 453, -1233, 454, -1233, 454, -1235,
+[D][remote.raw:041]:   453, -1236, 1244, -439, 449, -1237, 453
+[D][remote.raw:041]: Received Raw: 186
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 162
+[D][remote.raw:028]: Received Raw: 1281, -430, 1241, -442, 421, -1270, 445, -1241, 422, -1264, 447, -1243, 448, -1238, 421, -1267, 447, -1242, 479, -1208, 446, -1241, 446, -7413, 1280, -421, 1192, -490, 444, -1243, 445, -1242, 421, -1270, 1192, -493, 1192, -493, 1191, -492,
+[D][remote.raw:028]:   1193, -493, 1191, -491, 1193, -494, 1193, -6650, 1256, -420, 1192, -490, 445, -1241, 447, -1240, 449, -1241, 447, -1240, 447, -1239, 448, -1241, 449, -1239, 1215, -467, 447, -1242, 446, -7405, 1256, -420, 1191, -490, 446, -1240, 449, -1238, 449, -1241,
+[D][remote.raw:028]:   450, -1236, 503, -1184, 424, -1266, 447, -1242, 1192, -490, 445, -1246, 472, -7375, 1255, -420, 1191, -490, 448, -1239, 450, -1236, 452, -1241, 444, -1238, 452, -1234, 447, -1243, 448, -1241, 1192, -491, 448, -1239, 448, -7404, 1282, -394, 1192, -490,
+[D][remote.raw:028]:   447, -1240, 478, -1208, 452, -1237, 450, -1240, 447, -1236, 451, -1239, 446, -1243, 1192, -491, 446, -1240, 450, -7402, 1257, -419, 1191, -492, 447, -1239, 478, -1208, 480, -1209, 456, -1230, 450, -1237, 450, -1240, 451, -1237, 1193, -490, 450, -1236,
+[D][remote.raw:041]:   451, -7402, 1283, -388, 1241, -442, 447, -1241, 450, -1237, 452, -1234, 453, -1237, 478, -1208, 451, -1236, 449, -1243, 1191, -491, 448, -1238, 451
+[D][remote.raw:041]: Received Raw: 74, -19917, 79
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:028]: Received Raw: 1260, -414, 1241, -443, 446, -1243, 450, -1238, 447, -1241, 447, -1242, 421, -1267, 451, -1236, 447, -1242, 448, -1239, 423, -1265, 450, -7410, 1279, -422, 1196, -488, 418, -1267, 447, -1241, 448, -1244, 1193, -492, 1193, -493, 1191, -493,
+[D][remote.raw:028]:   1192, -492, 1192, -492, 1193, -492, 1193, -6654, 1254, -421, 1192, -490, 421, -1265, 447, -1241, 446, -1242, 453, -1234, 449, -1238, 421, -1268, 449, -1241, 1192, -490, 448, -1240, 445, -7410, 1253, -422, 1192, -491, 444, -1241, 452, -1235, 448, -1242,
+[D][remote.raw:028]:   447, -1240, 446, -1241, 448, -1243, 447, -1240, 1245, -438, 446, -1240, 447, -7406, 1255, -420, 1193, -489, 448, -1237, 449, -1238, 446, -1244, 446, -1241, 446, -1240, 448, -1241, 423, -1267, 1192, -489, 420, -1266, 450, -7405, 1277, -396, 1191, -490,
+[D][remote.raw:028]:   448, -1238, 421, -1265, 450, -1240, 447, -1239, 448, -1240, 448, -1241, 448, -1240, 1192, -490, 447, -1240, 447, -7405, 1256, -419, 1192, -490, 444, -1242, 449, -1237, 450, -1240, 447, -1240, 451, -1235, 476, -1217, 446, -1239, 1192, -490, 451, -1235,
+[D][remote.raw:028]:   453, -7399, 1256, -420, 1192, -491, 448, -1237, 450, -1237, 454, -1235, 448, -1238, 452, -1235, 451, -1242, 449, -1236, 1193, -490, 451, -1235, 474, -7380, 1255, -417, 1241, -441, 446, -1243, 449, -1238, 452, -1234, 454, -1236, 452, -1234, 456, -1230,
+[D][remote.raw:041]:   451, -1244, 1241, -439, 451, -1235, 453
+[D][remote.raw:041]: Received Raw: 163, -7130, 77
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:028]: Received Raw: 1256, -418, 1240, -442, 421, -1269, 421, -1267, 446, -1240, 421, -1269, 449, -1240, 448, -1238, 421, -1269, 450, -1238, 449, -1239, 421, -7439, 1279, -424, 1192, -490, 446, -1240, 423, -1265, 421, -1270, 1193, -492, 1193, -493, 1192, -492,
+[D][remote.raw:028]:   1193, -491, 1193, -493, 1192, -492, 1192, -6655, 1253, -422, 1191, -492, 445, -1240, 446, -1240, 447, -1243, 448, -1238, 448, -1240, 446, -1243, 445, -1245, 1195, -487, 445, -1241, 450, -7404, 1254, -420, 1193, -490, 445, -1241, 449, -1237, 447, -1243,
+[D][remote.raw:028]:   451, -1236, 452, -1233, 451, -1240, 447, -1242, 1193, -490, 448, -1238, 452, -7406, 1249, -421, 1193, -490, 448, -1237, 451, -1236, 449, -1241, 449, -1239, 452, -1234, 472, -1217, 450, -1239, 1193, -490, 445, -1242, 449, -7403, 1281, -394, 1192, -491,
+[D][remote.raw:028]:   445, -1240, 453, -1234, 448, -1241, 450, -1236, 451, -1236, 452, -1237, 451, -1238, 1245, -438, 446, -1239, 476, -7374, 1279, -396, 1191, -491, 446, -1239, 449, -1239, 451, -1237, 452, -1234, 448, -1238, 455, -1234, 450, -1238, 1193, -490, 449, -1236,
+[D][remote.raw:041]:   453, -7398, 1282, -390, 1240, -442, 449, -1238, 455, -1232, 453, -1234, 481, -1208, 450, -1236, 450, -1236, 449, -1242, 1192, -489, 452, -1235, 476
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:028]: Received Raw: 1241, -448, 1236, -443, 447, -1243, 448, -1239, 449, -1239, 449, -1241, 446, -1242, 447, -1238, 449, -1241, 447, -1240, 448, -1238, 453, -7408, 1279, -423, 1192, -491, 447, -1239, 422, -1265, 449, -1243, 1194, -492, 1193, -492, 1193, -493,
+[D][remote.raw:028]:   1191, -492, 1193, -493, 1192, -491, 1194, -6656, 1253, -422, 1191, -491, 448, -1238, 450, -1236, 449, -1242, 451, -1235, 448, -1240, 447, -1243, 422, -1266, 1193, -490, 420, -1266, 449, -7403, 1256, -419, 1193, -489, 445, -1242, 477, -1210, 448, -1242,
+[D][remote.raw:028]:   450, -1236, 452, -1234, 475, -1215, 448, -1241, 1192, -491, 445, -1241, 472, -7381, 1281, -394, 1193, -489, 447, -1241, 449, -1237, 450, -1241, 475, -1211, 449, -1238, 451, -1239, 477, -1211, 1193, -491, 448, -1238, 449, -7403, 1258, -419, 1192, -491,
+[D][remote.raw:028]:   447, -1238, 450, -1238, 447, -1242, 452, -1235, 477, -1212, 445, -1242, 452, -1237, 1193, -490, 454, -1233, 448, -7405, 1281, -393, 1192, -491, 421, -1265, 452, -1235, 475, -1214, 449, -1239, 450, -1236, 449, -1241, 451, -1237, 1245, -438, 448, -1238,
+[D][remote.raw:028]:   451, -7404, 1279, -395, 1244, -437, 480, -1207, 451, -1235, 451, -1239, 480, -1207, 479, -1206, 454, -1236, 479, -1209, 1246, -438, 448, -1237, 480, -7372, 1282, -390, 1242, -441, 450, -1242, 447, -1236, 452, -1235, 451, -1238, 454, -1233, 451, -1234,
+[D][remote.raw:041]:   452, -1240, 1244, -438, 450, -1237, 457
+[D][remote.raw:041]: Received Raw: 113
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 163
+[D][remote.raw:028]: Received Raw: 1255, -416, 1241, -443, 419, -1269, 447, -1241, 475, -1212, 445, -1245, 447, -1239, 422, -1265, 421, -1269, 447, -1242, 445, -1240, 423, -7438, 1278, -423, 1193, -490, 446, -1240, 422, -1266, 420, -1270, 1194, -494, 1190, -493, 1192, -492,
+[D][remote.raw:028]:   1244, -441, 1192, -493, 1192, -492, 1193, -6653, 1255, -421, 1195, -487, 446, -1241, 448, -1243, 445, -1240, 478, -1209, 449, -1237, 451, -1241, 475, -1215, 1191, -489, 421, -1268, 476, -7377, 1254, -422, 1195, -487, 446, -1240, 451, -1237, 446, -1244,
+[D][remote.raw:028]:   448, -1239, 451, -1236, 449, -1241, 448, -1245, 1242, -438, 447, -1239, 454, -7399, 1281, -395, 1192, -491, 444, -1242, 448, -1238, 453, -1237, 450, -1237, 449, -1238, 446, -1245, 448, -1238, 1193, -490, 451, -1235, 456, -7399, 1281, -395, 1191, -490,
+[D][remote.raw:028]:   448, -1238, 450, -1237, 449, -1240, 449, -1237, 450, -1237, 449, -1241, 475, -1213, 1194, -489, 457, -1229, 451, -7401, 1283, -392, 1192, -490, 448, -1239, 453, -1233, 453, -1236, 454, -1233, 451, -1236, 451, -1238, 453, -1236, 1193, -490, 449, -1238,
+[D][remote.raw:041]:   449, -7405, 1284, -389, 1240, -441, 447, -1243, 475, -1212, 451, -1235, 454, -1236, 453, -1234, 479, -1207, 476, -1216, 1244, -439, 450, -1236, 454
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:041]: Received Raw: 123
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:028]: Received Raw: 1255, -418, 1240, -441, 428, -1263, 446, -1240, 448, -1239, 450, -1240, 449, -1238, 422, -1266, 450, -1240, 449, -1237, 452, -1235, 448, -7411, 1281, -422, 1192, -491, 445, -1241, 447, -1239, 423, -1270, 1192, -494, 1245, -439, 1192, -492,
+[D][remote.raw:028]:   1193, -492, 1193, -492, 1192, -493, 1192, -6654, 1255, -419, 1193, -491, 445, -1240, 452, -1235, 449, -1241, 453, -1235, 448, -1239, 447, -1243, 504, -1184, 1193, -490, 419, -1268, 450, -7406, 1277, -396, 1246, -438, 445, -1241, 449, -1238, 448, -1243,
+[D][remote.raw:028]:   445, -1242, 450, -1236, 453, -1237, 448, -1242, 1192, -491, 445, -1241, 449, -7405, 1264, -410, 1192, -490, 449, -1237, 449, -1238, 449, -1241, 448, -1238, 450, -1236, 482, -1208, 449, -1239, 1193, -490, 448, -1238, 449, -7403, 1282, -393, 1191, -490,
+[D][remote.raw:028]:   450, -1237, 448, -1238, 450, -1240, 450, -1236, 451, -1236, 447, -1243, 449, -1240, 1192, -490, 448, -1238, 476, -7378, 1279, -395, 1245, -437, 448, -1238, 450, -1236, 452, -1238, 451, -1236, 449, -1237, 448, -1242, 451, -1238, 1191, -491, 450, -1236,
+[D][remote.raw:041]:   452, -7400, 1256, -418, 1242, -442, 452, -1235, 450, -1236, 452, -1234, 450, -1240, 450, -1239, 448, -1235, 476, -1216, 1192, -490, 451, -1235, 451
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:028]: Received Raw: 1257, -416, 1239, -446, 443, -1244, 453, -1233, 446, -1241, 450, -1241, 424, -1261, 449, -1239, 448, -1242, 450, -1237, 423, -1263, 450, -7411, 1285, -416, 1193, -490, 446, -1241, 449, -1237, 448, -1244, 1193, -493, 1192, -492, 1193, -491,
+[D][remote.raw:028]:   1193, -493, 1192, -493, 1195, -489, 1192, -6652, 1256, -419, 1193, -490, 443, -1243, 446, -1244, 418, -1268, 450, -1237, 448, -1238, 445, -1245, 446, -1246, 1189, -491, 445, -1241, 448, -7405, 1283, -394, 1191, -491, 421, -1264, 453, -1235, 473, -1216,
+[D][remote.raw:028]:   449, -1238, 449, -1237, 448, -1242, 450, -1238, 1193, -489, 448, -1239, 448, -7404, 1282, -394, 1192, -490, 450, -1237, 447, -1239, 425, -1264, 451, -1236, 451, -1236, 449, -1240, 448, -1241, 1192, -490, 448, -1238, 479, -7375, 1255, -418, 1245, -437,
+[D][remote.raw:028]:   449, -1238, 452, -1235, 452, -1237, 448, -1242, 446, -1236, 450, -1240, 450, -1238, 1193, -490, 447, -1240, 449, -7403, 1284, -391, 1193, -490, 448, -1238, 452, -1235, 450, -1239, 449, -1239, 452, -1235, 450, -1240, 451, -1237, 1192, -490, 451, -1236,
+[D][remote.raw:028]:   451, -7401, 1283, -393, 1245, -442, 446, -1236, 454, -1233, 452, -1237, 455, -1233, 477, -1209, 451, -1239, 452, -1236, 1192, -491, 448, -1238, 450, -7405, 1278, -391, 1240, -442, 450, -1243, 451, -1232, 452, -1233, 455, -1236, 451, -1236, 455, -1234,
+[D][remote.raw:041]:   448, -1240, 1245, -439, 453, -1232, 457
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 81
+[D][remote.raw:028]: Received Raw: 1256, -418, 1240, -442, 424, -1265, 449, -1240, 451, -1236, 447, -1244, 447, -1240, 422, -1266, 444, -1244, 447, -1240, 451, -1237, 449, -7411, 1280, -423, 1193, -490, 420, -1267, 447, -1240, 451, -1242, 1192, -493, 1247, -438, 1192, -493,
+[D][remote.raw:028]:   1192, -492, 1193, -492, 1193, -492, 1193, -6655, 1258, -417, 1192, -492, 443, -1243, 452, -1235, 450, -1240, 475, -1212, 447, -1239, 452, -1238, 449, -1241, 1192, -490, 447, -1240, 449, -7405, 1255, -419, 1193, -490, 448, -1164, 524, -1239, 448, -1239,
+[D][remote.raw:028]:   453, -1235, 450, -1237, 449, -1240, 450, -1240, 1192, -491, 476, -1211, 448, -7404, 1283, -392, 1193, -490, 450, -1237, 453, -1233, 448, -1241, 453, -1234, 451, -1237, 451, -1240, 473, -1214, 1192, -490, 451, -1237, 450, -7404, 1252, -421, 1192, -490,
+[D][remote.raw:028]:   446, -1240, 450, -1237, 455, -1235, 449, -1237, 421, -1268, 450, -1238, 450, -1239, 1193, -490, 451, -1235, 449, -7404, 1283, -393, 1192, -490, 452, -1234, 453, -1235, 450, -1239, 452, -1234, 450, -1237, 476, -1214, 476, -1211, 1196, -488, 450, -1236,
+[D][remote.raw:028]:   477, -7376, 1282, -394, 1244, -438, 449, -1238, 448, -1238, 475, -1215, 453, -1233, 452, -1234, 451, -1239, 452, -1237, 1245, -438, 448, -1239, 453, -7401, 1283, -389, 1241, -441, 451, -1238, 453, -1233, 452, -1236, 451, -1237, 453, -1234, 454, -1233,
+[D][remote.raw:041]:   455, -1237, 1245, -439, 450, -1235, 453
+[D][remote.raw:041]: Received Raw: 114
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:028]: Received Raw: 1257, -416, 1241, -443, 420, -1270, 420, -1266, 447, -1240, 449, -1242, 422, -1266, 450, -1240, 445, -1241, 450, -1236, 450, -1238, 421, -7439, 1282, -421, 1192, -491, 447, -1239, 447, -1239, 450, -1243, 1194, -491, 1192, -492, 1193, -492,
+[D][remote.raw:028]:   1193, -491, 1193, -492, 1193, -491, 1193, -6652, 1253, -422, 1192, -490, 446, -1240, 477, -1211, 449, -1241, 472, -1218, 446, -1236, 445, -1245, 449, -1240, 1193, -491, 420, -1266, 448, -7404, 1256, -420, 1192, -489, 449, -1240, 451, -1235, 447, -1242,
+[D][remote.raw:028]:   449, -1238, 451, -1236, 447, -1242, 451, -1238, 1192, -491, 451, -1236, 447, -7404, 1284, -392, 1192, -491, 419, -1266, 448, -1241, 449, -1239, 452, -1235, 452, -1235, 450, -1238, 449, -1240, 1193, -489, 449, -1238, 451, -7403, 1263, -412, 1192, -491,
+[D][remote.raw:028]:   446, -1240, 449, -1238, 448, -1242, 421, -1264, 449, -1236, 452, -1238, 453, -1236, 1245, -439, 447, -1238, 418, -7433, 1257, -419, 1246, -437, 448, -1238, 448, -1238, 477, -1212, 450, -1237, 449, -1238, 476, -1213, 477, -1212, 1192, -491, 447, -1239,
+[D][remote.raw:028]:   452, -7399, 1282, -394, 1248, -434, 451, -1236, 449, -1238, 454, -1236, 450, -1237, 448, -1238, 452, -1237, 452, -1237, 1196, -490, 449, -1233, 455, -7402, 1281, -388, 1240, -442, 473, -1216, 478, -1208, 478, -1208, 451, -1238, 424, -1263, 451, -1236,
+[D][remote.raw:041]:   453, -1238, 1245, -438, 452, -1234, 452
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:028]: Received Raw: 1256, -421, 1236, -442, 447, -1243, 423, -1264, 450, -1237, 450, -1239, 481, -1207, 449, -1238, 447, -1244, 450, -1237, 451, -1236, 448, -7413, 1282, -421, 1193, -491, 447, -1240, 447, -1240, 452, -1240, 1245, -440, 1193, -491, 1194, -493,
+[D][remote.raw:028]:   1193, -492, 1193, -493, 1191, -493, 1246, -6602, 1281, -393, 1247, -436, 423, -1264, 449, -1237, 452, -1237, 505, -1182, 449, -1238, 451, -1240, 451, -1237, 1192, -491, 448, -1238, 448, -7404, 1284, -392, 1247, -435, 447, -1241, 477, -1209, 452, -1238,
+[D][remote.raw:028]:   478, -1209, 449, -1237, 452, -1239, 448, -1241, 1247, -435, 448, -1239, 450, -7404, 1282, -394, 1191, -492, 450, -1235, 451, -1235, 455, -1236, 477, -1209, 453, -1235, 452, -1237, 451, -1242, 1241, -438, 450, -1236, 450, -7404, 1288, -389, 1246, -437,
+[D][remote.raw:028]:   451, -1235, 452, -1235, 454, -1236, 452, -1235, 455, -1232, 453, -1239, 481, -1206, 1193, -490, 449, -1237, 455, -7400, 1288, -388, 1245, -438, 451, -1235, 451, -1236, 450, -1239, 456, -1232, 452, -1235, 478, -1212, 479, -1211, 1245, -437, 455, -1232,
+[D][remote.raw:028]:   457, -7397, 1283, -390, 1241, -441, 447, -1242, 453, -1234, 453, -1234, 453, -1238, 452, -1234, 480, -1207, 481, -1210, 1249, -436, 448, -1238, 453, -7397, 1254, -422, 1242, -441, 451, -1238, 454, -1233, 455, -1232, 453, -1237, 453, -1234, 457, -1231,
+[D][remote.raw:041]:   453, -1238, 1246, -438, 450, -1237, 453
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 63
+[D][remote.raw:041]: Received Raw: 70
+[D][remote.raw:041]: Received Raw: 78
+[D][remote.raw:028]: Received Raw: 1283, -415, 1194, -490, 446, -1241, 452, -1239, 448, -1240, 445, -1241, 447, -1244, 449, -1238, 452, -1241, 444, -1241, 449, -1240, 449, -7408, 1272, -430, 1242, -442, 419, -1271, 450, -1237, 451, -1240, 1240, -444, 1242, -444, 1241, -444,
+[D][remote.raw:028]:   1240, -445, 1240, -444, 1242, -444, 1240, -4253, 74, -2280, 1251, -425, 1240, -442, 446, -1243, 449, -1239, 424, -1263, 478, -1212, 449, -1238, 449, -1242, 453, -1236, 1193, -490, 448, -1239, 452, -7399, 1254, -423, 1240, -443, 448, -1240, 450, -1237,
+[D][remote.raw:028]:   451, -1237, 447, -1243, 451, -1236, 454, -1233, 476, -1217, 1191, -492, 422, -1264, 452, -7403, 1247, -424, 1245, -437, 448, -1243, 422, -1264, 451, -1236, 448, -1242, 450, -1237, 450, -1240, 450, -1239, 1245, -438, 449, -1237, 451, -7403, 1250, -423,
+[D][remote.raw:028]:   1241, -442, 448, -1241, 450, -1237, 451, -1236, 449, -1241, 450, -1237, 477, -1210, 456, -1237, 1244, -439, 449, -1237, 451, -7399, 1254, -423, 1241, -442, 474, -1216, 453, -1234, 451, -1235, 452, -1238, 452, -1235, 479, -1208, 450, -1242, 1193, -490,
+[D][remote.raw:028]:   448, -1239, 452, -7400, 1252, -422, 1243, -440, 450, -1240, 452, -1234, 450, -1237, 451, -1239, 453, -1234, 453, -1234, 455, -1237, 1245, -438, 451, -1235, 452, -7400, 1286, -394, 1187, -491, 453, -1234, 452, -1237, 452, -1235, 450, -1237, 479, -1210,
+[D][remote.raw:041]:   481, -1206, 452, -1238, 1241, -441, 446, -1243, 454
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:041]: Received Raw: 139
+[D][remote.raw:028]: Received Raw: 1272, -436, 1192, -491, 444, -1243, 448, -1238, 443, -1247, 431, -1256, 423, -1265, 449, -1242, 445, -1239, 448, -1240, 448, -1241, 421, -7436, 1282, -421, 1192, -489, 422, -1266, 445, -1244, 450, -1240, 1192, -493, 1193, -492, 1193, -493,
+[D][remote.raw:028]:   1191, -492, 1193, -494, 1191, -493, 1192, -6654, 1255, -421, 1193, -490, 445, -1242, 448, -1242, 421, -1266, 422, -1264, 449, -1242, 448, -1239, 449, -1239, 1242, -441, 446, -1245, 420, -7430, 1281, -395, 1192, -490, 447, -1240, 449, -1241, 450, -1237,
+[D][remote.raw:028]:   451, -1239, 444, -1242, 426, -1260, 447, -1243, 1241, -442, 449, -1243, 447, -7399, 1255, -419, 1194, -490, 448, -1239, 449, -1239, 453, -1235, 455, -1231, 447, -1247, 444, -1239, 453, -1236, 1242, -442, 445, -1245, 449, -7399, 1256, -420, 1192, -490,
+[D][remote.raw:028]:   421, -1269, 447, -1239, 449, -1238, 451, -1236, 450, -1240, 450, -1235, 477, -1213, 1240, -443, 448, -1241, 450, -7321, 1335, -419, 1196, -487, 449, -1237, 452, -1237, 450, -1236, 450, -1235, 454, -1236, 449, -1237, 452, -1238, 1240, -442, 449, -1239,
+[D][remote.raw:028]:   453, -7397, 1258, -417, 1245, -438, 448, -1238, 452, -1234, 451, -1238, 454, -1232, 454, -1234, 478, -1211, 453, -1237, 1191, -492, 449, -1236, 450, -7404, 1285, -390, 1243, -439, 449, -1237, 457, -1229, 453, -1241, 446, -1237, 451, -1236, 454, -1236,
+[D][remote.raw:041]:   451, -1238, 1245, -437, 448, -1239, 451
+[D][remote.raw:041]: Received Raw: 110
+[D][remote.raw:041]: Received Raw: 86
+[D][remote.raw:028]: Received Raw: 1283, -414, 1240, -443, 445, -1246, 420, -1266, 450, -1238, 449, -1242, 448, -1240, 444, -1241, 450, -1241, 447, -1241, 450, -1236, 447, -7415, 1278, -423, 1192, -492, 444, -1241, 448, -1239, 447, -1246, 1192, -493, 1193, -492, 1192, -494,
+[D][remote.raw:028]:   1192, -491, 1193, -493, 1192, -492, 1194, -6652, 1254, -421, 1193, -491, 449, -1237, 449, -1241, 448, -1238, 422, -1265, 449, -1238, 453, -1237, 447, -1242, 1192, -491, 421, -1265, 448, -7403, 1255, -421, 1245, -439, 419, -1266, 452, -1235, 449, -1241,
+[D][remote.raw:028]:   449, -1237, 450, -1236, 448, -1245, 445, -1241, 1193, -490, 420, -1270, 448, -7403, 1279, -394, 1195, -487, 419, -1267, 452, -1235, 450, -1238, 450, -1238, 450, -1237, 449, -1240, 448, -1241, 1192, -491, 434, -1252, 449, -7402, 1255, -420, 1192, -491,
+[D][remote.raw:028]:   445, -1240, 447, -1239, 451, -1239, 452, -1235, 456, -1231, 449, -1240, 448, -1241, 1193, -489, 447, -1240, 450, -7404, 1254, -425, 1242, -436, 446, -1241, 451, -1235, 451, -1239, 475, -1212, 452, -1235, 475, -1214, 452, -1237, 1246, -437, 450, -1237,
+[D][remote.raw:028]:   453, -7398, 1283, -390, 1241, -441, 448, -1242, 446, -1241, 451, -1235, 449, -1241, 477, -1210, 451, -1237, 451, -1241, 1250, -432, 452, -1234, 452, -7399, 1252, -423, 1241, -443, 446, -1242, 477, -1210, 452, -1235, 451, -1238, 452, -1235, 456, -1230,
+[D][remote.raw:041]:   452, -1243, 1191, -490, 423, -1264, 449
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 129
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:028]: Received Raw: 1280, -421, 1193, -491, 448, -1238, 449, -1241, 449, -1237, 448, -1240, 448, -1241, 449, -1238, 422, -1266, 447, -1241, 448, -1240, 421, -7433, 1273, -431, 1241, -443, 446, -1245, 442, -1243, 452, -1236, 1241, -447, 1237, -445, 1241, -443,
+[D][remote.raw:028]:   1241, -444, 1241, -444, 1240, -444, 1242, -6602, 1252, -426, 1239, -441, 451, -1239, 476, -1211, 453, -1233, 449, -1241, 448, -1239, 448, -1238, 452, -1240, 1192, -493, 446, -1238, 451, -7398, 1252, -425, 1241, -441, 450, -1240, 448, -1239, 454, -1233,
+[D][remote.raw:028]:   451, -1241, 446, -1239, 450, -1236, 451, -1241, 1192, -491, 448, -1238, 447, -7402, 1253, -422, 1242, -442, 450, -1239, 447, -1240, 449, -1237, 453, -1239, 452, -1234, 449, -1238, 448, -1243, 1193, -491, 450, -1236, 449, -7399, 1252, -424, 1242, -440,
+[D][remote.raw:028]:   448, -1242, 453, -1235, 451, -1238, 446, -1241, 477, -1210, 452, -1235, 445, -1246, 1246, -441, 447, -1236, 449, -7400, 1251, -424, 1243, -440, 450, -1243, 475, -1209, 450, -1236, 453, -1238, 476, -1211, 454, -1233, 477, -1214, 1246, -436, 450, -1237,
+[D][remote.raw:028]:   452, -7399, 1252, -423, 1240, -442, 474, -1216, 451, -1235, 451, -1235, 457, -1235, 452, -1234, 452, -1234, 459, -1234, 1245, -438, 451, -1235, 480, -7371, 1284, -392, 1245, -438, 449, -1238, 452, -1204, 485, -1235, 452, -1235, 456, -1234, 455, -1234,
+[D][remote.raw:041]:   481, -1205, 1245, -438, 451, -1239, 481
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:028]: Received Raw: 116, -3600, 1269, -439, 1189, -490, 421, -1266, 449, -1238, 449, -1241, 448, -1240, 448, -1239, 449, -1241, 450, -1237, 451, -1237, 449, -1241, 449, -7409, 1282, -421, 1193, -490, 447, -1240, 453, -1239, 448, -1240, 1194, -495, 1190, -492,
+[D][remote.raw:028]:   1193, -492, 1197, -493, 1188, -493, 1194, -492, 1192, -6654, 1255, -419, 1193, -491, 447, -1238, 451, -1240, 475, -1212, 449, -1239, 421, -1268, 448, -1238, 452, -1237, 1242, -441, 449, -1241, 451, -7400, 1256, -419, 1244, -439, 450, -1240, 445, -1243,
+[D][remote.raw:028]:   451, -1235, 451, -1236, 448, -1242, 425, -1261, 451, -1238, 1242, -440, 477, -1214, 450, -7400, 1257, -419, 1246, -436, 452, -1235, 452, -1237, 455, -1232, 451, -1236, 477, -1213, 450, -1236, 481, -1210, 1240, -441, 449, -1241, 451, -7402, 1256, -419,
+[D][remote.raw:028]:   1192, -491, 449, -1236, 480, -1212, 448, -1237, 451, -1237, 452, -1238, 454, -1233, 455, -1234, 1242, -441, 450, -1239, 451, -7399, 1283, -394, 1245, -437, 451, -1236, 448, -1241, 452, -1234, 453, -1235, 448, -1241, 454, -1233, 453, -1236, 1242, -441,
+[D][remote.raw:041]:   422, -1266, 480, -7371, 1283, -393, 1246, -437, 447, -1239, 453, -1234, 453, -1237, 455, -1231, 479, -1208, 450, -1244, 449, -1235, 1247, -436, 451, -1235, 453
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw:
+[D][remote.raw:041]: Received Raw: 72
+[D][remote.raw:028]: Received Raw: 1273, -432, 1239, -442, 447, -1242, 449, -1239, 448, -1238, 455, -1234, 449, -1239, 477, -1211, 451, -1238, 449, -1237, 447, -1240, 451, -7410, 1281, -420, 1192, -490, 449, -1237, 446, -1241, 453, -1238, 1194, -493, 1192, -494, 1190, -492,
+[D][remote.raw:028]:   1194, -492, 1191, -493, 1245, -440, 1192, -6651, 1257, -418, 1247, -437, 447, -1239, 447, -1240, 449, -1240, 449, -1238, 451, -1235, 450, -1243, 447, -1238, 1194, -488, 452, -1236, 450, -7403, 1279, -396, 1192, -485, 457, -1235, 449, -1237, 452, -1238,
+[D][remote.raw:028]:   450, -1237, 451, -1235, 451, -1239, 450, -1238, 1193, -490, 448, -1240, 450, -7399, 1282, -393, 1245, -438, 447, -1239, 450, -1235, 450, -1241, 447, -1239, 448, -1238, 450, -1239, 452, -1237, 1195, -488, 423, -1262, 452, -7398, 1257, -421, 1191, -490,
+[D][remote.raw:028]:   451, -1236, 452, -1234, 448, -1242, 449, -1238, 455, -1231, 452, -1237, 451, -1238, 1193, -492, 448, -1236, 453, -7400, 1281, -393, 1206, -478, 448, -1237, 454, -1233, 451, -1239, 452, -1234, 451, -1237, 450, -1238, 454, -1235, 1244, -439, 449, -1236,
+[D][remote.raw:028]:   452, -7401, 1280, -394, 1247, -436, 449, -1237, 454, -1232, 477, -1213, 455, -1232, 475, -1211, 451, -1238, 451, -1237, 1249, -434, 474, -1213, 454, -7399, 1283, -389, 1241, -443, 448, -1239, 453, -1235, 478, -1208, 455, -1235, 478, -1207, 453, -1234,
+[D][remote.raw:041]:   451, -1241, 1244, -438, 449, -1237, 453
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 51
+[D][remote.raw:041]: Received Raw: 76
+[D][remote.raw:041]: Received Raw: 73
+[D][remote.raw:028]: Received Raw: 1256, -417, 1242, -441, 449, -1242, 451, -1236, 447, -1240, 450, -1240, 422, -1267, 451, -1235, 445, -1244, 451, -1238, 446, -1241, 476, -7384, 1310, -393, 1247, -435, 449, -1239, 447, -1240, 451, -1241, 1192, -493, 1246, -439, 1192, -492,
+[D][remote.raw:028]:   1247, -439, 1192, -492, 1192, -493, 1245, -6602, 1280, -394, 1192, -491, 445, -1242, 447, -1238, 448, -1243, 424, -1262, 450, -1236, 452, -1240, 450, -1238, 1246, -437, 446, -1241, 450, -7403, 1255, -420, 1246, -438, 448, -1238, 451, -1235, 474, -1216,
+[D][remote.raw:028]:   479, -1207, 450, -1237, 453, -1236, 450, -1239, 1248, -436, 446, -1240, 422, -7429, 1282, -395, 1245, -437, 449, -1237, 449, -1238, 446, -1243, 453, -1234, 448, -1239, 453, -1236, 447, -1241, 1245, -439, 448, -1238, 476, -7376, 1285, -391, 1247, -435,
+[D][remote.raw:028]:   450, -1236, 454, -1234, 477, -1212, 451, -1236, 451, -1235, 452, -1239, 452, -1236, 1246, -437, 450, -1236, 453, -7399, 1257, -419, 1246, -437, 449, -1236, 452, -1235, 454, -1236, 454, -1236, 451, -1232, 452, -1237, 451, -1238, 1246, -439, 450, -1235,
+[D][remote.raw:028]:   477, -7377, 1282, -393, 1244, -439, 449, -1237, 451, -1235, 453, -1236, 482, -1205, 452, -1235, 451, -1239, 452, -1236, 1245, -439, 451, -1234, 454, -7404, 1279, -389, 1242, -441, 451, -1238, 453, -1236, 451, -1234, 453, -1237, 479, -1207, 453, -1234,
+[D][remote.raw:041]:   452, -1239, 1245, -438, 453, -1233, 453
+[D][remote.raw:041]: Received Raw: 112
+[D][remote.raw:041]: Received Raw: 135
+[D][remote.raw:028]: Received Raw: 1257, -416, 1242, -441, 449, -1240, 451, -1237, 454, -1232, 447, -1243, 449, -1239, 451, -1258, 429, -1239, 452, -1235, 449, -1238, 447, -7411, 1307, -395, 1193, -491, 449, -1237, 447, -1242, 447, -1243, 1246, -439, 1192, -493, 1193, -492,
+[D][remote.raw:028]:   1193, -493, 1246, -438, 1245, -439, 1246, -6601, 1280, -394, 1246, -437, 453, -1213, 471, -1235, 454, -1237, 451, -1235, 454, -1233, 451, -1239, 448, -1242, 1192, -491, 448, -1238, 451, -7405, 1280, -392, 1246, -438, 451, -1234, 449, -1238, 452, -1238,
+[D][remote.raw:028]:   478, -1208, 456, -1231, 453, -1238, 452, -1237, 1247, -436, 452, -1235, 452, -7400, 1284, -397, 1241, -439, 451, -1234, 451, -1236, 479, -1212, 451, -1234, 456, -1231, 452, -1238, 450, -1239, 1246, -439, 448, -1237, 453, -7404, 1285, -384, 1196, -491,
+[D][remote.raw:028]:   451, -1235, 479, -1209, 453, -1236, 447, -1239, 479, -1209, 446, -1244, 454, -1235, 1245, -438, 453, -1233, 454, -7400, 1283, -393, 1244, -439, 451, -1235, 452, -1235, 453, -1236, 451, -1236, 451, -1236, 479, -1211, 455, -1233, 1245, -440, 452, -1235,
+[D][remote.raw:041]:   452, -7401, 1283, -390, 1242, -440, 479, -1210, 480, -1207, 456, -1231, 453, -1237, 454, -1233, 454, -1233, 454, -1242, 1242, -436, 452, -1236, 453
+[D][remote.raw:041]: Received Raw: 74
+[D][remote.raw:041]: Received Raw: 77
+[D][remote.raw:028]: Received Raw: 1283, -391, 1241, -443, 448, -1242, 451, -1236, 447, -1240, 423, -1268, 421, -1267, 449, -1238, 449, -1244, 444, -1239, 451, -1237, 452, -7409, 1281, -420, 1193, -492, 446, -1244, 443, -1240, 450, -1242, 1193, -493, 1192, -492, 1193, -492,
+[D][remote.raw:028]:   1192, -493, 1193, -491, 1193, -493, 1192, -6685, 1223, -421, 1248, -434, 448, -1240, 448, -1241, 447, -1240, 422, -1264, 449, -1239, 448, -1241, 450, -1239, 1193, -491, 436, -1249, 453, -7400, 1255, -420, 1194, -491, 443, -1246, 421, -1262, 451, -1239,
+[D][remote.raw:028]:   452, -1236, 447, -1239, 449, -1241, 422, -1269, 1244, -437, 447, -1239, 452, -7402, 1282, -394, 1193, -489, 450, -1237, 448, -1239, 430, -1259, 450, -1237, 451, -1236, 449, -1241, 450, -1238, 1193, -491, 451, -1235, 477, -7375, 1257, -420, 1243, -438,
+[D][remote.raw:028]:   454, -1232, 451, -1236, 453, -1237, 458, -1231, 450, -1234, 479, -1211, 451, -1238, 1245, -437, 450, -1237, 450, -7402, 1282, -393, 1247, -436, 449, -1237, 452, -1236, 451, -1239, 450, -1236, 450, -1237, 452, -1237, 452, -1237, 1246, -438, 448, -1239,
+[D][remote.raw:041]:   451, -7407, 1258, -410, 1242, -441, 453, -1236, 478, -1211, 448, -1237, 478, -1211, 453, -1234, 455, -1231, 451, -1241, 1245, -437, 449, -1238, 452
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 94
+[D][remote.raw:041]: Received Raw: 71
+[D][remote.raw:041]: Received Raw: 82
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 75
+[D][remote.raw:041]: Received Raw: 69
+[D][remote.raw:041]: Received Raw: 115
+[D][remote.raw:041]: Received Raw: 145
