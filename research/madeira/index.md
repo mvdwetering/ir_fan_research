@@ -1,6 +1,7 @@
 # Madeira
 
 From Hornbach I got the "[MADEIRA Afstandsbediening voor Madeira plafondventilatoren](https://www.hornbach.nl/p/madeira-afstandsbediening-voor-madeira-plafondventilatoren/6139907/)" which is a control unit and remote control and appears to still be sold. The controller has model number AA2009-9EIR on it.
+
 In the end I did not replace the control unit because the remote is working fine with the unit that was in the ceiling fan. Technically this one has "wrong" printing for the light on/off buttons and the 4h and 8h light function does not work. But that is not enough to take the effort to replace the module.
 
 That unit seems to be compatible with a number of their ceiling fan models being:
@@ -20,7 +21,7 @@ That unit seems to be compatible with a number of their ceiling fan models being
 
 The remote is model AA3, made by Hornbach (but I assume it is some kind of whitelabel/OEM thing with XIN HUI)
 
-Looking at the PCB in the remote it turns out to be exactly like the Emanuel one. Same numbers AA2009-9/PC2C and JJ3525 and same mapping.
+Looking at the PCB in the remote it turns out to be exactly like the Emanuel one. Same numbers AA2009-9/PC2C and JJ3525 and same mapping. The IC also has no markings
 
 ## Module
 
