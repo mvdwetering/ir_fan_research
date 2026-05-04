@@ -54,4 +54,3 @@ The configuration with proto codes:
     }
 }
 ```
-
