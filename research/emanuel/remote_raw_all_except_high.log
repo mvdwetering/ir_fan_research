@@ -966,75 +966,13 @@ v8b899c12
 [C][wifi:033]: Setting up WiFi...
 [D][wifi:304]: Starting scan...
 [D][remote.raw:041]: Received Raw: 74
-[D][wifi:319]: Found networks:
-[I][wifi:365]: - 'Hemels' (20:AA:4B:21:11:D7) ▂▄▆█
-[D][wifi:366]:     Channel: 6
-[D][wifi:367]:     RSSI: -37 dB
-[I][wifi:365]: - 'Hemels' (C4:AD:34:6C:E2:5D) ▂▄▆█
-[D][wifi:366]:     Channel: 1
-[D][wifi:367]:     RSSI: -74 dB
-[I][wifi:365]: - 'Hemels' (B8:69:F4:B2:A5:F1) ▂▄▆█
-[D][wifi:366]:     Channel: 1
-[D][wifi:367]:     RSSI: -83 dB
-[D][wifi:369]: - 'MikroTikWerk' (E4:8D:8C:9F:63:73) ▂▄▆█
-[D][wifi:369]: - 'ziggo-ap-6108488' (D8:B6:B7:C5:B5:74) ▂▄▆█
-[D][wifi:369]: - 'VRV951784EDA4' (CC:D4:2E:15:E0:37) ▂▄▆█
-[D][wifi:369]: - '' (76:83:C2:9F:5D:2A) ▂▄▆█
-[D][wifi:369]: - 'H368N9A8E2B' (66:CC:22:CF:59:E7) ▂▄▆█
-[D][wifi:369]: - 'Wireless' (74:83:C2:DF:5D:2A) ▂▄▆█
-[D][wifi:369]: - 'TP-Link_2.4GHz_2B8432' (B0:95:75:2B:84:32) ▂▄▆█
-[D][wifi:369]: - 'Ziggo' (92:5C:14:A7:1C:E9) ▂▄▆█
-[D][wifi:369]: - 'VRV951784EDA4' (64:CC:22:84:ED:A4) ▂▄▆█
-[D][wifi:369]: - 'ZiggoB1E2841' (54:67:51:B7:C7:3E) ▂▄▆█
-[D][wifi:369]: - '' (76:83:C2:9F:CE:2E) ▂▄▆█
-[D][wifi:369]: - 'H369A7AD9F9' (96:6A:B0:C3:86:2F) ▂▄▆█
-[D][wifi:369]: - 'Rainier's WLAN' (90:5C:44:A7:1C:E9) ▂▄▆█
-[D][wifi:369]: - 'van Tol_Gast' (CE:D4:2E:97:D9:49) ▂▄▆█
-[D][wifi:369]: - 'Ziggo' (52:0D:10:DC:95:59) ▂▄▆█
-[D][wifi:369]: - 'Ziggo' (56:67:11:B7:C7:3E) ▂▄▆█
-[D][wifi:369]: - 'H369A7AD9F9_Gast' (96:6A:B0:D3:86:2F) ▂▄▆█
-[D][wifi:369]: - 'H369A094B74_EXT' (A4:2B:8C:10:DE:53) ▂▄▆█
-[D][wifi:369]: - 'Quicksilver' (B0:4E:26:38:A6:D5) ▂▄▆█
-[D][wifi:369]: - '' (1A:E8:29:17:CA:EF) ▂▄▆█
-[D][wifi:369]: - 'DIHNVJEC' (BC:30:D9:25:8A:93) ▂▄▆█
-[D][wifi:369]: - 'Josh & Kim' (80:29:94:C3:1C:6C) ▂▄▆█
-[D][wifi:369]: - 'SEC_LinkShare_b28c7a' (E4:E0:C5:01:26:AB) ▂▄▆█
-[D][wifi:369]: - 'Welcome to the Matrix' (E8:94:F6:AA:B4:5C) ▂▄▆█
-[I][wifi:193]: WiFi Connecting to 'Hemels'...
-[D][remote.raw:041]: Received Raw: 66, -3109, 124
-[D][remote.raw:041]: Received Raw: 68, -9399, 71
-[D][remote.raw:041]: Received Raw: 75
-[D][remote.raw:041]: Received Raw: 139, -5972, 190
-[D][remote.raw:041]: Received Raw: 116
-[D][remote.raw:041]: Received Raw: 72
 [I][wifi:423]: WiFi Connected!
-[C][wifi:283]:   SSID: 'Hemels'
-[C][wifi:284]:   IP Address: 192.168.178.28
-[C][wifi:286]:   BSSID: 20:AA:4B:21:11:D7
-[C][wifi:287]:   Hostname: 'irreceiver'
-[C][wifi:291]:   Signal strength: -46 dB ▂▄▆█
-[C][wifi:295]:   Channel: 6
-[C][wifi:296]:   Subnet: 255.255.255.0
-[C][wifi:297]:   Gateway: 192.168.178.9
-[C][wifi:298]:   DNS1: 192.168.178.9
-[C][wifi:299]:   DNS2: 213.75.63.75
 [D][wifi:432]: Disabling AP...
 [C][ota:029]: Over-The-Air Updates:
 [C][ota:030]:   Address: irreceiver.local:8266
 [C][api:022]: Setting up Home Assistant API server...
 [I][app:058]: setup() finished successfully!
 [I][app:100]: ESPHome version 1.14.3 compiled on Aug 27 2020, 18:35:30
-[C][wifi:415]: WiFi:
-[C][wifi:283]:   SSID: 'Hemels'
-[C][wifi:284]:   IP Address: 192.168.178.28
-[C][wifi:286]:   BSSID: 20:AA:4B:21:11:D7
-[C][wifi:287]:   Hostname: 'irreceiver'
-[C][wifi:291]:   Signal strength: -46 dB ▂▄▆█
-[C][wifi:295]:   Channel: 6
-[C][wifi:296]:   Subnet: 255.255.255.0
-[C][wifi:297]:   Gateway: 192.168.178.9
-[C][wifi:298]:   DNS1: 192.168.178.9
-[C][wifi:299]:   DNS2: 213.75.63.75
 [C][logger:175]: Logger:
 [C][logger:176]:   Level: DEBUG
 [C][logger:177]:   Log Baud Rate: 115200

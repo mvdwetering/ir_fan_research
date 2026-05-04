@@ -26,7 +26,7 @@ This was entirely AI generated and iterated on quite a bit. I think the output s
 
 ## The result (for now)
 
-It turns out the protocol is what is called "Symphony" by IrRemoteESP8266 and ESPHome with a small twist. While the frame data is as described in the SM5012 datasheet, the message starts with a frame that has value 0x00 (all 0), then a frame with value 0x7F (all 1) and after that it sends frames with the actual button payload as long as the button is held down.
+It turns out the protocol is what is called "Symphony" by IrRemoteESP8266 and ESPHome with a small twist. While the frame data is as described in the SM5021 datasheet, the message starts with a frame that has value 0x00 (all 0), then a frame with value 0x7F (all 1) and after that it sends frames with the actual button payload as long as the button is held down.
 
 I named the initial frames "START_A" and "START_B" and will refer to messages starting with these frames as the "XIN HUI" variant by lack of a better names.
 
@@ -71,7 +71,7 @@ These products are bit less clear, but have a good chance of working
 * Lindby, e.g. <https://www.lampen24.nl/p/plafondventilator-met-verlichting-auraya-stil-staal-10027100.html>
 * Westinghouse, e.g. <https://www.lampen24.nl/p/westinghouse-bendan-ventilator-met-licht-zilver-9602244.html>
 
-These products use the SM5012 variant ("standard" Symphony) based on data I found
+These products use the SM5021 variant ("standard" Symphony) based on data I found
 
 * Symphony Air Cooler 3Di
 * Brand: Blyss, Model: Owen-SW-5 3 speed Fan with water mist (has photos)
@@ -79,6 +79,6 @@ These products use the SM5012 variant ("standard" Symphony) based on data I foun
 * Brand: Westinghouse, Model: Unknown Ceiling fan with lights
 * Brand: Westinghouse, Model: 78095 Ceiling Fan Remote
 * Brand: Satellite electronic, Model ID6 Ceiling Fan Remote
-* Brand: SilverCrest (Lidl) Product: Misting Pedestal Fan / SilverCrest SSVS 85 A1 Fan
-* Westinghouse with remote model ID6
-* Brand: Vornado Product: Transom
+* Brand: SilverCrest (Lidl) Product: Misting Pedestal Fan / SilverCrest SSVS 85 A1 Fan (header 0b010, custom code 0b11)
+* Westinghouse with remote model ID6 (custom code 0b11)
+* Brand: Vornado Product: Transom (custom code 0b11)
