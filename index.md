@@ -66,11 +66,6 @@ These products should ise the same protocol based on the data I found
 * DD2 remote (no brand name, but might be good enough)
 * Lindby (no model provided)
 
-These products are bit less clear, but have a good chance of working
-
-* Lindby, e.g. <https://www.lampen24.nl/p/plafondventilator-met-verlichting-auraya-stil-staal-10027100.html>
-* Westinghouse, e.g. <https://www.lampen24.nl/p/westinghouse-bendan-ventilator-met-licht-zilver-9602244.html>
-
 These products use the SM5021 variant ("standard" Symphony) based on data I found
 
 * Symphony Air Cooler 3Di
