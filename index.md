@@ -14,7 +14,7 @@ After flashing it with an ESPHome configuration that had an IR receiver componen
 
 ## The scripts
 
-### remote_raw_analyzer.py
+### legacy_remote_raw_analyzer.py
 
 This script was used to figure out the "shape" of the data in my initial attempt a couple of years ago. I don't remember much of it.
 It is mostly here for historic documentation
