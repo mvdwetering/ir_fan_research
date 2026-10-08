@@ -1,6 +1,6 @@
 # IR Fan Research
 
-This repository documents the investigation of infrared (IR) remotes used by ceiling fans and related appliances. The goal is to identify compatible products, understand their IR protocols.
+This repository documents the investigation of infrared (IR) remotes used by my ceiling fan and others. The goal is to understand the IR protocol.
 
 The research includes captured signals, Pronto Hex files, photographs, PCB observations, datasheets, and notes about related remotes and protocol implementations. Findings are empirical and may be incomplete; check the source captures and individual research notes when relying on them.
 
