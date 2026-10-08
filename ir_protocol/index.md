@@ -1,7 +1,5 @@
 # IR protocol
 
-## TL;DR
-
 ## Reverse engineering the protocol (the journey)
 
 (this is the result of some back and forth with AI, I believe the outcome is correct but the story needs some cleanup due to weird phrasings and some parts have not been fully update after new findings were done)
