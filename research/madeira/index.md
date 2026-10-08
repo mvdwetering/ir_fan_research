@@ -36,13 +36,13 @@ The chip in the module is marked with AA2009-9. I could not find a datasheet.
 The following mapping was captured.
 
 * K1 = HI = Fan high speed
-* K2 = H8 = Fan 8 hours
+* K2 = 8H = Fan 8 hours
 * K3 = MED = Fan medium speed
 * K4 = ON/OFF = Light On/Off
 * K5 = OFF = Fan Off
-* K6 = H2 = Light 2 hours
+* K6 = 2H = Fan 2 hours
 * K7 = LO = Fan low speed
-* K8 = H4 = Fan 4 hours
+* K8 = 4H = Fan 4 hours
 
 ## IR captures
 
