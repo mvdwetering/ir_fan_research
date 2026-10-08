@@ -56,12 +56,14 @@ Message 19:
 
 ## Products
 
+More details in the research directory.
+
 These are products I own or am confident are using the same IR protocol (XIN HUI variant).
 
 * "Emanuel" - Ceiling fan Emanuel from lampen24.nl (2020)
 * "Madeira" - IR fan controller from Hornbach to control Madeira ceiling fans
 
-These products should ise the same protocol based on the data I found
+These products should use the same protocol based on the data I found.
 
 * DD2 remote (no brand name, but might be good enough)
 * Lindby (no model provided)
