@@ -1,6 +1,6 @@
 # DD2 Ceiling Fan
 
-link: <research/ESP8266IRFancontroller-Lyndby/index.md>
+link: <https://community.homey.app/t/dd2-ceiling-fan/128904>
 
 ## Description
 
