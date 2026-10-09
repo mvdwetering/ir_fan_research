@@ -25,7 +25,7 @@ See [ir_protocol/](ir_protocol/) for the decoding analysis and [research/](resea
 - [`decode_ir_messages.py`](decode_ir_messages.py) — decodes ESPHome raw logs, Pronto Hex captures, or raw CSV timing data and reports frame and timing details.
 - [`legacy_remote_raw_analyzer.py`](legacy_remote_raw_analyzer.py) — an older helper for exploring timing clusters in ESPHome `remote.raw` output; kept mainly for historical reference.
 - [`ir_protocol/`](ir_protocol/) — protocol analysis, frame layout, timing, and command observations.
-- [`research/`](research/) — device-specific research, including signal captures, product photos, datasheets, and notes. Start at [research/index.md](research/index.md).
+- [`research/`](research/) — device-specific research, including signal captures, product photos, datasheets, and notes. Start at [research/README.md](research/README.md).
 
 ## The scripts
 
