@@ -86,6 +86,4 @@ Products that appear to use the SM5021 variant of the Symphony protocol based on
 - SilverCrest Lidl misting pedestal fan / SSVS 85 A1
 - Vornado Transom
 
-## Research areas
-
-Each device or related project has its own notes in [research/](research/). Current topics include the Emanuel and Madeira fans/controllers, a DD2 ceiling fan remote, Lindby, Vornado Transom, Symphony/SM5021 remotes, and work associated with the IrRemoteESP8266 project. Refer to each area's notes for what was actually captured or confirmed.
+Each device or related project has its own notes in [research/](research/).
