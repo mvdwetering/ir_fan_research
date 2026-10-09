@@ -193,37 +193,34 @@ confirms this is a bare proprietary format rather than NEC, RC-5, or RC-6.
 
 ## Frame structure
 
-Each button press is a single Pronto Hex blob, but inside that blob there are
-multiple logical **mini-frames** separated by long inter-frame gaps. Each
-mini-frame contains exactly **12 mark/space pairs**, encoding **12 bits** of data.
-
-A complete button press always follows the same three-part structure:
+The SM5021 datasheet describes each frame as a 12-bit transmitted word followed
+by a four-bit empty synchronization field:
 
 ```text
-[ PREAMBLE_A ] gap [ PREAMBLE_B ] gap [ COMMAND ] gap [ COMMAND ] gap ...
+[ Frame head: 110 ] [ Custom code: C1 C2 ] [ Control word: 7 bits ] [ Sync: 4 empty bits ]
 ```
 
-| Mini-frame | Bit pattern      | Payload (8-bit) | Role              |
-|------------|------------------|-----------------|-------------------|
-| Preamble A | `110000000000`   | `0x00`          | Constant — sync   |
-| Preamble B | `110001111111`   | `0x7F`          | Constant — device |
-| Command    | varies per key   | see table       | Button command    |
+For the captures documented here, the custom code is `00`. Thus each timed
+mini-frame contains **12 mark/space pairs**: the three-bit head, two custom
+bits, and seven-bit control word. The four empty sync bits appear as the
+inter-frame silence rather than as additional mark/space data pairs.
 
-The command word is repeated three to six times depending on the button. This
-is likely handled internally by the IC's firmware with no dependency on the
-host's button-hold duration.
+The captures contain initial frames with control words `0000000` and `1111111`,
+followed by the button's command frame repeated three to six times depending
+on the button. These initial frames are observed in these captures; the SM5021
+notes report that its variant starts directly with command frames.
 
-### Bit layout within each mini-frame
-
-Each 12-bit word consists of:
+### Field layout within each mini-frame
 
 ```text
-[ b11 b10 b9 b8 b7 b6 b5 b4 ] [ b3 b2 b1 b0 ]
-  ^^^^^^^^ 8-bit payload ^^^^   ^^^^ prefix
+[ 1 1 0 ] [ C1 C2 ] [ c6 c5 c4 c3 c2 c1 c0 ] [ four empty sync bits ]
+  head      custom       seven-bit control word       synchronization
 ```
 
-The four most-significant bits are always `1100` for all frames observed. The
-lower eight bits form the meaningful payload byte.
+The observed head is `110` and custom code is `00`. The control word varies by
+button and is listed in the command table below.
+
+The head `110` is listed as "metal option", so it can be different.
 
 ### Last-bit encoding
 
@@ -247,68 +244,62 @@ The protocol is therefore **purely PWM throughout all 12 bits**.
 
 ## Command table
 
-| PCB label | Button | Command word (12-bit) | Payload (8-bit) | Hex    | Binary        |
-|-----------|--------|-----------------------|-----------------|--------|---------------|
-| K1        | HI     | `110000000001`        | `00000001`      | `0x01` | `0000 0001`   |
-| K2        | 8H     | `110000000010`        | `00000010`      | `0x02` | `0000 0010`   |
-| K3        | MED    | `110000000100`        | `00000100`      | `0x04` | `0000 0100`   |
-| K4        | ON/OFF | `110000001000`        | `00001000`      | `0x08` | `0000 1000`   |
-| K5        | OFF    | `110000010000`        | `00010000`      | `0x10` | `0001 0000`   |
-| K6        | 2H     | `110000100000`        | `00100000`      | `0x20` | `0010 0000`   |
-| K7        | LOW    | `110001000011`        | `01000011`      | `0x43` | `0100 0011`   |
-| K8        | 4H     | `110001000110`        | `01000110`      | `0x46` | `0100 0110`   |
+| PCB label | Button | Frame word (12-bit) | Head | Custom code | Control word (7-bit) |
+|-----------|--------|---------------------|------|-------------|----------------------|
+| K1        | HI     | `110000000001`      | `110`| `00`        | `0000001`            |
+| K2        | 8H     | `110000000010`      | `110`| `00`        | `0000010`            |
+| K3        | MED    | `110000000100`      | `110`| `00`        | `0000100`            |
+| K4        | ON/OFF | `110000001000`      | `110`| `00`        | `0001000`            |
+| K5        | OFF    | `110000010000`      | `110`| `00`        | `0010000`            |
+| K6        | 2H     | `110000100000`      | `110`| `00`        | `0100000`            |
+| K7        | LOW    | `110001000011`      | `110`| `00`        | `1000011`            |
+| K8        | 4H     | `110001000110`      | `110`| `00`        | `1000110`            |
 
 ### Pattern observation
 
-Ordered by PCB label, the payload bytes reveal a clean sequential one-hot
-pattern across K1–K6:
+Ordered by PCB label, the control words have the following bits set, in
+ascending position:
 
-| PCB label | Button | Payload | Bit set (0 = LSB) |
-|-----------|--------|---------|-------------------|
-| K1        | HI     | `0x01`  | bit 0             |
-| K2        | 8H     | `0x02`  | bit 1             |
-| K3        | MED    | `0x04`  | bit 2             |
-| K4        | ON/OFF | `0x08`  | bit 3             |
-| K5        | OFF    | `0x10`  | bit 4             |
-| K6        | 2H     | `0x20`  | bit 5             |
-| K7        | LOW    | `0x43`  | bits 0+1+6        |
-| K8        | 4H     | `0x46`  | bits 1+2+6        |
-
-K1–K6 map to exactly one bit each, in ascending order. The protocol uses
-**active-high one-hot** encoding: the IC sets the bit corresponding to the
-pressed key and clears all others.
-
-K7 and K8 both have bit 6 set alongside two lower bits. Bit 6 likely flags
-the timer category; the lower bits then identify the specific duration.
-
-The IC most likely maps each button directly to a fixed byte scanned from a
-resistor ladder or key matrix, with K1–K6 as primary function keys and
-K7–K8 as combined speed+timer keys.
+| PCB label | Button | Control word | Set bit (0 = LSB) |
+|-----------|--------|--------------|-------------------|
+| K1        | HI     | `0000001`    | bit 0             |
+| K2        | 8H     | `0000010`    | bit 1             |
+| K3        | MED    | `0000100`    | bit 2             |
+| K4        | ON/OFF | `0001000`    | bit 3             |
+| K5        | OFF    | `0010000`    | bit 4             |
+| K6        | 2H     | `0100000`    | bit 5             |
+| K7        | LOW    | `1000011`    | bits 0, 1, and 6  |
+| K8        | 4H     | `1000110`    | bits 1, 2, and 6  |
 
 ---
 
 ## Timing summary
 
-| Parameter               | Measured value               |
-|-------------------------|------------------------------|
-| Carrier frequency       | 38.03 kHz                    |
-| Long mark / short space | ~1260 µs / ~420 µs (bit = 1) |
-| Short mark / long space | ~420 µs / ~1260 µs (bit = 0) |
-| Bit duration            | ~1683 µs (constant)          |
-| Inter-frame gap         | ~6.2 ms (0xEC units)         |
-| Final silence           | ~66 ms (0x09D8 units)        |
-| Mini-frame length       | 12 symbols / 12 bits         |
-| Preamble A payload      | `0x00` (`00000000`)          |
-| Preamble B payload      | `0x7F` (`01111111`)          |
-| Command repeats         | 3–6×                         |
+| Parameter               | Measured value                     |
+|-------------------------|------------------------------------|
+| Carrier frequency       | 38.03 kHz                          |
+| Long mark / short space | ~1260 µs / ~420 µs (bit = 1)       |
+| Short mark / long space | ~420 µs / ~1260 µs (bit = 0)       |
+| Bit duration            | ~1683 µs (constant)                |
+| Inter-frame gap         | ~6.2 ms (0xEC units)               |
+| Final silence           | ~66 ms (0x09D8 units)              |
+| Transmitted frame word  | 12 symbols / 12 bits               |
+| Frame head              | `110`                              |
+| Custom code             | `00`                               |
+| Control word            | 7 bits; varies by button           |
+| Sync field              | 4 empty bits (inter-frame gap)     |
+| Initial capture frames  | Control words `0000000`, `1111111` |
+| Command repeats         | 3+                                 |
 
 ---
 
 ## Conclusion
 
-The remote uses a minimal proprietary pulse-distance protocol at 38 kHz with
-no NEC or RC-5 framing. Each button press transmits three distinct mini-frames:
-a fixed preamble pair followed by a repeating 8-bit command byte. The command
-set appears to use active-low one-hot bit assignment across an 8-bit field.
-Both brands respond identically to the same remote, suggesting the OEM IC is
-the sole source of both products' RF identity.
+The remote uses a proprietary pulse-width protocol at 38 kHz with no NEC, RC-5,
+or RC-6 framing. The observed timed frame consists of the SM5021-style `110`
+head, two-bit custom code, and seven-bit control word; the four-bit empty sync
+field is represented by the inter-frame silence. These captures include two
+initial control frames before repeated button commands, while the documented
+SM5021 variant starts directly with the command frames. Both brands respond
+identically to the same remote, suggesting shared or compatible OEM protocol
+implementation.
