@@ -87,3 +87,18 @@ Products that appear to use the SM5021 variant of the Symphony protocol based on
 - Vornado Transom
 
 Each device or related project has its own notes in [research/](research/).
+
+## License
+
+Unless otherwise noted, original content in this repository, including:
+
+- Scripts
+- IR captures created by the author
+- Photographs created by the author
+- Original protocol analysis and documentation
+
+is licensed under the MIT License. See LICENSE for details.
+
+Some reference material, excerpts, screenshots, captures, and other content originates from third-party sources. Such material remains subject to the copyright and licensing terms of the respective owners. Source links and attributions are provided where available.
+
+The MIT License does not apply to third-party material.
