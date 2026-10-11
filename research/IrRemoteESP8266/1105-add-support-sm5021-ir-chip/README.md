@@ -13,11 +13,11 @@ This is the link to the datasheet of the [SM5021 IR chip](https://pdf1.alldatash
 
 ## Supported products
 
-Brand: Blyss, Model: Owen-SW-5 3 speed Fan with water mist (has photos)
-Brand: Blyss, Model: WP-YK8 090218 Owen-SW-5 3 speed Fan with water mist remote
-Brand: Westinghouse, Model: Unknown Ceiling fan with lights
-Brand: Westinghouse, Model: 78095 Ceiling Fan Remote
-Brand: Satellite electronic, Model ID6 Ceiling Fan Remote
+* Brand: Blyss, Model: Owen-SW-5 3 speed Fan with water mist (has photos)
+* Brand: Blyss, Model: WP-YK8 090218 Owen-SW-5 3 speed Fan with water mist remote
+* Brand: Westinghouse, Model: Unknown Ceiling fan with lights
+* Brand: Westinghouse, Model: 78095 Ceiling Fan Remote
+* Brand: Satellite electronic, Model ID6 Ceiling Fan Remote
 
 ## Remote
 
@@ -25,7 +25,7 @@ The issue mentions 2 remotes. These are very different from what I have seen unt
 
 ## Button mapping
 
-Unknown
+Unknown, the capture data below is for K6
 
 ## IR captures
 
