@@ -18,7 +18,10 @@ Model : Air Cooler 3Di
 
 ## Button mapping
 
-Unknown
+Labels are unknown.
+
+Button 1 from capture is K5
+Button 2 from capture is K2
 
 ## IR captures
 
