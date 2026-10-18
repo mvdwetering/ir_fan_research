@@ -14,7 +14,7 @@ Home Assistant 2026.4.0 added support for IR entities, which gave the project a 
 
 ## Current findings
 
-The captured remotes use a protocol commonly referred to as **Symphony**, with two variants. In the "XIN HUI" variant found in the Emanuel and Madeira controllers, a message begins with `0x00` and `0x7F` frames, followed by repeated frames for the pressed button. Other researched devices appear to use the SM5021 variant.
+The captured remotes use a protocol commonly referred to as **Symphony**, with two variants. I named those "XIN HUI", after the manufacturer of my remote that has that variant, and "SM5021" which is the name of the datasheet that was referred to in initial implementations of the "Symphony" protocol in the [IRremoteESP8266 repo](https://github.com/crankyoldgit/IRremoteESP8266). In the "XIN HUI" variant found in the Emanuel and Madeira controllers, a message begins with `0x00` and `0x7F` frames, followed by repeated frames for the pressed button, other than that is is the same as SM5021. Other researched devices appear to use the SM5021 variant.
 
 The protocol seems to define only 8 commands, called K1 to K8. The meaning depends on the remote control and receiver. For example, the AA2 remote that came with my Emanuel fan maps K2 to Light Off, while the Madeira AA3 remote labels K2 as Light 2H. Sending K2 from the Madeira remote to my ceiling fan still results in the Light Off command.
 
